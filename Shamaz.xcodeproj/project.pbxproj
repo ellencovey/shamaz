@@ -14,6 +14,8 @@
 		9B3B184622832C3C00784631 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B3B184422832C3C00784631 /* LaunchScreen.storyboard */; };
 		9B3B185122832C3D00784631 /* ShamazTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3B185022832C3D00784631 /* ShamazTests.swift */; };
 		9B3B185C22832C3D00784631 /* ShamazUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3B185B22832C3D00784631 /* ShamazUITests.swift */; };
+		9B3B186A2283382000784631 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3B18692283382000784631 /* RoundButton.swift */; };
+		9B8A0EA32284935700C8DAA3 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8A0EA22284935700C8DAA3 /* Utility.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		9B3B185722832C3D00784631 /* ShamazUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShamazUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B3B185B22832C3D00784631 /* ShamazUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShamazUITests.swift; sourceTree = "<group>"; };
 		9B3B185D22832C3D00784631 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B3B18692283382000784631 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		9B8A0EA22284935700C8DAA3 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				9B3B183B22832C3B00784631 /* AppDelegate.swift */,
 				9B3B183D22832C3B00784631 /* ViewController.swift */,
 				9B3B183F22832C3B00784631 /* Main.storyboard */,
+				9B8A0EA22284935700C8DAA3 /* Utility.swift */,
+				9B3B18692283382000784631 /* RoundButton.swift */,
 				9B3B184222832C3C00784631 /* Assets.xcassets */,
 				9B3B184422832C3C00784631 /* LaunchScreen.storyboard */,
 				9B3B184722832C3C00784631 /* Info.plist */,
@@ -256,6 +262,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B8A0EA32284935700C8DAA3 /* Utility.swift in Sources */,
+				9B3B186A2283382000784631 /* RoundButton.swift in Sources */,
 				9B3B183E22832C3B00784631 /* ViewController.swift in Sources */,
 				9B3B183C22832C3B00784631 /* AppDelegate.swift in Sources */,
 			);
