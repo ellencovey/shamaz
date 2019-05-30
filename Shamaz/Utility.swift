@@ -10,11 +10,13 @@ import Foundation
 
 class Utility {
     
+    // arrays of actions and times for dreaming and reflecting
     static var reflectActions = ["Describe your day", "Where were you", "Who did you talk to", "How were you feeling"]
     static var reflectTimes = ["two days ago", "yesterday", "last Saturday", "last night"]
     static var dreamActions = ["Where do you want to go", "What will you be doing", "Who would you like to be with", "What are your plans for"]
     static var dreamTimes = ["tomorrow", "this time next year", "next Friday", "a month from now"]
     
+    // functions to pick a random element from each array
     static func generateReflectAction() -> String {
         return reflectActions.randomElement()!
     }
